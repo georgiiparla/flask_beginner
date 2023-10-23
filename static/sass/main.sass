@@ -1,0 +1,55 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+.container
+    width: 69.792vw
+    margin: 0 auto
+    display: block
+    // background-color: #b6b6b6
+    margin-top: 2.604vw
+    text-align: center
+    .text
+        color: #000
+        font-family: Poppins
+        font-size: 3rem
+        font-style: normal
+        font-weight: 700
+        line-height: 60px
+    .grid
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        width: 100%
+        grid-auto-rows: 1fr
+        gap: 30px
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+    .container
+        .text
+            font-size: 2rem
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+    .container
+        .text
+            font-size: 3rem
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+    .container
+        .text
+            font-size: 3rem
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+    .container
+        .text
+            font-size: 3rem
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+    .container
+        .text
+            font-size: 3rem
